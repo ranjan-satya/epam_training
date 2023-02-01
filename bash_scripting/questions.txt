@@ -1,0 +1,21 @@
+Q11: Write a script that reads a value from user and print that.
+Q12: write a shell program to read two values from user, subtract them and print on console.
+Q13: Write a shell program to perform a + b^3 .
+Q14: Write a shell program to take a and b as input and perform (a-4)%b.
+Q15: Write a program to check relational programming using shell programming.
+Q16: Write a program to take input from the command line and apply logical operators on that.
+Q17: Write a program to check number of words in the file are less than 200, otherwise print greater than 200.
+Q18: Write a program to print all the arguments.
+Q19: Write a program to print all the .doc files in the pwd.
+Q20: Write a shell program to take backup of files. (hint: cp and  car command)
+Q21: Write a shell program to print those lines of the file which are not common in file1 and file2
+Q22: Write a shell program to take a filename as input and check whether a file is exist or not and whether a file is empty or not.
+Q23: Write a shell program using while loop to print 1 to 10.
+Q24: Write a shell program to read the value from the user until user enters 'no'.
+Q25: Write a shell program to print hostname, current users, current date, ip address of the system.
+Q26: Write a shell program to remove a file if pattern matches with 'yes', if pattern is 'no' then print 'no deletion', otherwise print 'default condition'.Read file as command line argument.
+Q27: Write a program to read a string as comman line argument, find the length of that and extract second word from the string.
+Q28: Write a program to create a function "function1", that takes prints your name, and call that name.
+Q29: Write a program to which perform summation of random arguments.
+Q30: Write a function to find whether a number is odd number or not? Pass the number as a argument to the function.
+Q31: Write a program to declare function1() which return sum of two function arguments. Declare another function function2() whhich takes the sum as input and returns average as output.

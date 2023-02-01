@@ -1,0 +1,17 @@
+Q1 : Create a folder "devops", change the pwd to "devops", create a file "sample.txt", show the contents of that file .
+Q2 : Write a command to copy the contents of two files to one file.
+Q3 : Write command to append content one file to another file.
+			Lets say we want to copy the content of the file one.txt to two.txt. then we would use the command
+			$ cat one.txt >> two.txt
+Q4 : Match all the lines which start with "happy" in a file named "j1.txt".
+			$ grep "^happy" j1.txt
+Q5 : Match all the lines which have abc in them is a file names "j1.txt".
+			$ grep "[a-c]" j1.txt
+Q6 : Write a command that gives the lines having email-id.
+			grep "[a-zA-Z0-9._]\+@lpu.in" 3.txt
+Q7 : Write a command to list all the process ids.
+			$ ps -aux
+Q8 : Write a command to get the ip address of eth0.
+Q9 : Write a command to get last 2 files of long listing.
+Q10: Convert lower case letter to upper case letters.
+			$ tr a-z A-z
