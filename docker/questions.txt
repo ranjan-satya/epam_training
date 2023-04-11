@@ -1,0 +1,25 @@
+Q1 : Create a docker file to execute python file in the container. 
+Q2 : Create a user image which is using ubuntu as base image and install apache2 on it, expose port
+ 80 which is used for udp. 
+	also specify the entry point for the image.
+
+Q3 : Create two containers using docker compose with mongodb and php
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

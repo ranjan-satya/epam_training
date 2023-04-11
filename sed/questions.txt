@@ -1,0 +1,2 @@
+Q1 : Write a command for 'Welcome K19cc', for putting W and K in bracket.
+Q2 : Write a shell program to read command line argument a number and print the name according to that number.

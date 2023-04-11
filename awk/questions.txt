@@ -1,0 +1,3 @@
+Q1 : Write a command to print 2nd to 4th line with the line number.
+		$ awk 'NR==2, NR==4 {print NR, $0}' sample.csv
+Q2 : Write a command to print the line  when length is greater than 22.

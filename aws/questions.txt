@@ -1,0 +1,15 @@
+Q1 : Create new users with the following name.
+	dev_1 | attach new
+	dev_2 | policy
+
+	sec_1 | 
+	sec_2 |
+
+Q2: Determine the aws region in which you want to launch the Amaxon EC2 instance.
+    Launch an Amazon EC2 instance from a precofigured Amazon Machine Instance (AMI)
+    Choose an instance type based on memory, storage, CPU and network requirements
+    Configure network, IP address, security groups, tags and key pairs.
+
+Q3: Create a s3 bucket in mumbai region without acl permissions.
+
+Q4: Create a policy for s3 bucket to enable list objects and also enable ec2 full access policy for role new_s4 and tag that policy with ec2machine for private cloud
