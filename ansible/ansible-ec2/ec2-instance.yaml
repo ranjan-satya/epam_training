@@ -1,0 +1,21 @@
+- name: Create EC2 instance
+  hosts: localhost
+  connection: local
+  tasks:
+    - name: Launch EC2 Instance
+      amazon.aws.ec2_instance:
+        key_name: ec2MasterKey
+        instance_type: t2.micro
+        image_id: ami-02eb7a4783e7e9317
+        region: ap-south-1
+        security_group: sg-0bd308a7cbd6275ee
+        tags:
+          Name: instance-ansible
+        wait: true
+        vpc_subnet_id: subnet-0c08feaa391aecd72
+        network:
+          assign_public_ip: true
+      register: ec2
+    - name: Print Public IP Address
+      debug:
+        msg: "Instance IP address is {{ ec2.instances[0].network_interfaces[0]['association'] }}"
