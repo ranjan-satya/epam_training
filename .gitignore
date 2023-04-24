@@ -1,0 +1,5 @@
+*/.terraform/
+terraform/terraform-assignment/.terraform/
+terraform/terraform-assignment/.terraform.lock.hcl
+ca3/q1/.terraform/
+ca3/q1/.terraform.lock.hcl
